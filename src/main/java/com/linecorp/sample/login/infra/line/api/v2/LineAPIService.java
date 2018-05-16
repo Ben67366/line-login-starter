@@ -113,8 +113,9 @@ public class LineAPIService {
                 + "&redirect_uri=" + encodedCallbackUrl
                 + "&state=" + state
                 + "&scope=" + scope
-                + "&bot_prompt=" + "normal"
-                + "&nonce=" + nonce;
+                + "&nonce=" + nonce
+                + "&prompt=" + "consent"
+                + "&bot_prompt=" + "normal";
     }
 
     public boolean verifyIdToken(String id_token, String nonce) {
