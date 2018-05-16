@@ -113,7 +113,7 @@ public class LineAPIService {
                 + "&redirect_uri=" + encodedCallbackUrl
                 + "&state=" + state
                 + "&scope=" + scope
-                + "&bot_prompt=" + "aggressive"
+                + "&bot_prompt=" + "normal"
                 + "&nonce=" + nonce;
     }
 
