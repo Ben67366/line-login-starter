@@ -23,9 +23,10 @@ public final class IdToken {
     public final Long iat;
     public final String nonce;
     public final String name;
+    public final String email;
     public final String picture;
 
-    public IdToken(String iss, String sub, String aud, Long exp, Long iat, String nonce, String name, String picture) {
+    public IdToken(String iss, String sub, String aud, Long exp, Long iat, String nonce, String name, String email, String picture) {
         this.iss = iss;
         this.sub = sub;
         this.aud = aud;
@@ -33,6 +34,7 @@ public final class IdToken {
         this.iat = iat;
         this.nonce = nonce;
         this.name = name;
+        this.email = email;
         this.picture = picture;
     };
 
